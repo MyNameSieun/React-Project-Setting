@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import HomePage from 'pages/HomePage';
-import Rtk from 'pages/Rtk';
-import ReactQuery from 'pages/ReactQuery';
-import PropsDrilling from 'pages/PropsDrilling';
-import JsonServer from 'pages/JsonServer';
-import CreateAsyncThunk from 'pages/CreateAsyncThunk';
+import Rtk from 'pages/Rtk/Rtk';
+import ReactQuery from 'pages/ReactQuery/ReactQuery';
+import PropsDrilling from 'pages/PropsDrilling/PropsDrilling';
+import CreateAsyncThunk from 'pages/CreateAsyncThunk/CreateAsyncThunk';
+import JsonServer from 'pages/JsonServer/JsonServer';
 
 const Router = () => {
   return (
