@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import colors from './theme';
+import colors from './theme'; // import
 
 const Button = () => {
   return <StyledButton>버튼 클릭</StyledButton>;
