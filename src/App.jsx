@@ -1,3 +1,4 @@
+import { AuthProvider } from 'context/AuthContext';
 import Router from 'shared/Router';
 
 const App = () => {
