@@ -1,7 +1,11 @@
 import Router from 'shared/Router';
 
 const App = () => {
-  return <Router />;
+  return (
+    <AuthProvider>
+      <Router />
+    </AuthProvider>
+  );
 };
 
 export default App;

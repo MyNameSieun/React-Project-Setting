@@ -37,7 +37,7 @@ $ yarn start
 ```markdown
 - React: ^18.3.1
 - styled-components: ^6.1.12
-- react-router-dom: ^6.26.0
+- react-router-dom: ^6.26.1
 ```
 
 <br>
